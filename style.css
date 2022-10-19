@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box ;
+}
+
+
+.navbar{
+	display: stretch;
+    background: radial-gradient(rgb(177, 253, 219),#a8e9e9);;
+	align-items: center;
+	padding: 10px;
+}
+.navbar .log {
+	float: right;
+}
+.navbar .log button {
+		float: right;
+		color: rgb(153, 81, 247);
+		padding: 6px;
+		margin-top: 8px;
+		margin-right: 16px;
+		background: rgb(255, 255, 255);
+		font-size: 17px;
+		border: none;
+		cursor: pointer;
+	  }
+.navbar .log button:hover {
+		background-color: rgb(94, 208, 223);
+		color: black;
+}
+.navbar .signup {
+	float: right;
+}
+.navbar .signup button {
+		float: right;
+		color: rgb(255, 255, 255);
+		padding: 6px;
+		margin-top: 8px;
+		margin-right: 16px;
+		background: rgb(153, 81, 247);
+		font-size: 17px;
+		border: none;
+		cursor: pointer;
+	  }
+.navbar .signup button:hover {
+		background-color: rgb(94, 208, 223);
+		color: black;
+}
+
+.nav {
+	background-color: #333;
+	overflow: hidden;
+  }
+.nav a {
+	float: left;
+	color: #f2f2f2;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+.nav a:hover {
+	background-color: rgb(94, 208, 223);
+	color: black;
+}
+.nav a.split {
+	float: right;
+	background-color: #04AA6D;
+	color: white;
+  }
+nav ul{
+	display: inline-flex;
+	list-style-type: none;
+
+}
+nav li{
+    content: "\2022";
+    color: black;
+	display: inline-block;
+	margin-right: 20px;
+    
+}
